@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>new practice</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		.main{
+			height: 10vh;
+			width: 100vw;
+			/*background: linear-gradient(pink,green);*/
+			display: flex;
+		}
+		.logo{
+			/*height: 30vh;*/
+			width: 30vw;
+			display: flex;
+			/*justify-content: center;*/
+			margin-left: 8px;
+			margin-top: 20px;
+			/*align-items: center;*/
+
+		}
+
+		.logo h1{
+			/*word-spacing: 14px;*/
+			font-size: 25px;
+			font-weight: bold;
+			color: purple;
+		}
+
+		.menu{
+			width: 55vw;
+		}
+
+		.menu ul{
+			display: flex;
+			margin-left: 180px;
+		}
+
+		.menu ul li{
+			padding: 30px 8px 0px 12px;
+			list-style: none;
+			font-size: 22px;
+		}
+
+		.log{
+			width: 15vw;
+			display: flex;
+			margin: 20px 10px 0px 10px;
+		}
+
+		.log .in{
+			font-size: 18px;
+			padding: 12px;
+			margin-right: 12px;
+			background: purple;
+			color: white;
+			border: 2px solid white;
+			border-radius: 12px;
+
+		}
+
+		.log .up{
+			font-size: 18px;
+			padding: 12px;
+			background: purple;
+			color: white;
+			border: 2px solid white;
+			border-radius: 12px;
+			
+
+		}
+
+		.hello{
+			display: flex;
+			/*position: absolute;*/
+			/*left: 80px;*/
+		}
+
+		.hello h1{
+			position: absolute;
+			top: 30vh;
+			left: 75px;
+			
+		}
+
+		.hello h2{
+			position: absolute;
+			top: 30.5vh;
+			left: 18vw;
+			font-size: 35px;
+			font-weight: bolder;
+			color: purple;
+
+		}
+
+		.hello img{
+			position: absolute;
+			top: 20vh;
+			left: 3vw;
+			
+		}
+
+		.nextmenu{
+			width: 100vw;
+			border: 2px solid white;
+			border-radius: 13px;
+		}
+
+		.nextmenu ul{
+			display: flex;
+			position: absolute;
+			left: 35vw;
+			top: 20vh;
+		}
+
+		.nextmenu ul li{
+			padding: 10px;
+			list-style: none;
+			font-weight: bolder;
+			color: purple;
+			font-size: 18px;
+		}
+
+		.intro{
+			display: flex;
+			position: absolute;
+			top: 37vh;
+			left: 5.5vw;
+		}
+
+		.intro #le{
+			margin-right: 12px;
+		}
+
+		.vid{
+			position: absolute;
+			top: 94vh;
+			display: flex;
+			width: 100vw;
+		}
+
+		.vid .first{
+			width: 33vw;
+		}
+
+		.vid .second{
+			width: 33vw;
+		}
+
+		.vid .third{
+			width: 34vw;
+		}
+
+		.contact{
+			position: absolute;
+			top: 160vh;
+			left: 32vw;
+		}
+
+		.contact form input{
+			margin: 12px;
+			padding: 15px;
+			border-radius: 8px;
+		}
+
+		iframe{
+			border-radius: 12px;
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<div class="main">
+		<div class="logo">
+			<h1>CodeWithShreesant</h1>
+		</div>
+		<div class="menu">
+			<ul>
+				<li>home</li>
+				<li>courses</li>
+				<li>tutorial</li>
+				<li>contact</li>
+				<li>blogs</li>
+				<li>notes</li>
+				<li>about</li>
+			</ul>
+		</div>
+
+		<div class="log">
+			<button class="in">Login</button>
+			<button class="up">Signup</button>
+		</div>
+	</div>
+
+	<div class="nextmenu">
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>Javascript</li>
+			<li>C</li>
+			<li>C++</li>
+			<li>Python</li>
+			<li>Java</li>
+			<li>Express Js</li>
+		</ul>
+	</div>
+	
+	<div class="hello">
+		<!-- <img src="shree2.png" height="300px" width="250px"> -->
+		<h1>Welcome to</h1>
+		<h2>CodeWithShreesant</h2>
+	</div>
+
+	<!-- <div id="element1">
+		<div>HTML</div>
+	</div> -->
+
+	<div class="intro">
+		<h1 id="le">Learn</h1>
+		<h1 id="ht" style="color: purple;"><span id="example"></span></h1>
+	</div>
+
+	<div class="define" style="position: absolute; top: 43vh; left: 5.5vw;width: 40vw; font-size: 18px;">
+		<p style="word-spacing: 5px;">Are you confusing how and where to learn code from basic to advanced. Dont worry here I am for teach you different types of programming language.codewithshreesant is the platform where you find the solution of your coding related problem.</p>
+
+		<div class="buttons">
+		<button style="color: white; background: black; padding: 10px; border-radius: 5px; margin-top: 10px;">Free Courses</button>
+		<button style="color: black; background: silver; padding: 10px; border-radius: 5px; margin-top: 10px;">Explore</button>
+		</div>
+	</div>
+
+	<div>
+		<img src="R.jfif" height="400px" width="600px" style="position: absolute; top: 30vh; left: 50vw; border-top-left-radius: 20px;">
+	</div>
+
+	<div class="vid">
+		<div class="first">
+		<iframe width="300" height="220" src="https://www.youtube.com/embed/N3pjbAtaNI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<h1>Css and its types</h1>
+	<p style="font-size: 18px;">In this video I explain about the css and its<br> types in datail</p>
+	</div>
+	<div class="second">
+		<iframe width="300" height="220" src="https://www.youtube.com/embed/OCvVehRKTqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<h1>Make javascript file</h1>
+		<p style="font-size: 18px;">In this video I explain about how to make javascript<br> file and run it on browser</p>
+	</div>
+	<div class="third">
+		<iframe width="300" height="220" src="https://www.youtube.com/embed/Sk_nFa2VFbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<h1>Setup Python</h1>
+		<p style="font-size: 18px;">Install visual studio code and setup python on visual<br> studio code and run first python program</p>
+	</div>
+	</div>
+
+	<div class="contact">
+		<h1 style="font-size: 35px; margin-bottom: 45px;">Contact Form</h1>
+		<form>
+			Name:<input type="text" name="name">
+			Address:<input type="text" name="address"><br>
+			Email:<input type="text" name="email">
+			Phone:<input type="text" name="phone"><br>
+			Qualification:<input type="text" name="qualification">
+			Fathers name:<input type="text" name="fathers name"><br>
+			Mothers name:<input type="text" name="mothers name">
+			<input type="button" value="submit" style="padding: 5px; margin: 5px; background: red; color: white;">
+		</form>
+
+	</div>
+
+	<div class="btm" style="width: 100vw; height: 20vh; border:2px solid black; display: flex; flex-direction: column; justify-content: center; align-items: center; position: absolute; top: 225vh; color: white; background: black;">
+			<p></p>
+			<h3 style="margin: 5px;">&copy codewithshreesant</h3>
+			<h2>shreesantadhikari4590@gmail.com</h2>
+		</div>
+
+</body>
+<script src="typed.js"></script>
+<script src="hello.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
